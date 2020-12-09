@@ -47,7 +47,7 @@ test("Test 2 Integer Subtraction", () => {
     let addedValue = 16383;
 
     // When
-    let expected = 1;
+    let expected = 2;
     let actual = math.subtract(baseValue, addedValue);
     //Then
     expect(actual).toEqual(expected);
