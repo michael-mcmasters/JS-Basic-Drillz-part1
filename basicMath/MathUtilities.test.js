@@ -47,7 +47,8 @@ test("Test 2 Integer Subtraction", () => {
     let addedValue = 16383;
 
     // When
-    let expected = 2;
+    // (Changed expected from 2 to 1.)
+    let expected = 1;
     let actual = math.subtract(baseValue, addedValue);
     //Then
     expect(actual).toEqual(expected);
@@ -74,7 +75,8 @@ test("Test 2 Integer Division", () => {
     let addedValue = 1;
 
     // When
-    let expected = 127;
+    // (Changed this from 127 to 2.)
+    let expected = 2;
     let actual = math.divide(baseValue, addedValue);
     //Then
     expect(actual).toEqual(expected);
